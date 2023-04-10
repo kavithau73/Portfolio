@@ -62,11 +62,25 @@
          <h2>Contact Me</h2>
          <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name"/>
+            <input type="text" id="name" name="name" size="25" />
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email"/>
+            <input type="email" id="email" name="email"/><br>
 
+            <label for="subject">Subject:</label>
+            <input type="subject" name="subject"/><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <style>
+                label{
+                    display: block;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    
+                }
+            </style>
             <button type="submit">send</button>
          </form>
         </section>
